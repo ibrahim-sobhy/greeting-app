@@ -1,3 +1,5 @@
+# Build the project
+mvn clean install
 # Build the project docker
 docker build -t greeting-app .
 
