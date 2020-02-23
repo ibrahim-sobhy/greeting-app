@@ -7,7 +7,7 @@ docker build -t greeting-app .
 docker run -it -d -p 5000:8080 greeting-app:latest
 
 # To Demonstrate the API check
-http://localhost:5000/swagger-ui.html
+http://localhost:5000/greeting/swagger-ui.html
 
 # Welcome to Telenor's take-home assignment
 **Congratulations on making it this far! Great job!**
